@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 set -eu
 
-REPO="devdasx/bip39-mnemonic-kit"
+REPO="OathWallet/bip39-mnemonic-kit"
 BIN="bip39kit"
 VERSION="${VERSION:-latest}"
 PREFIX="${PREFIX:-$HOME/.local}"

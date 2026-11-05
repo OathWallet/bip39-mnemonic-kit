@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   DESC
   s.homepage     = 'https://github.com/OathWallet/bip39-mnemonic-kit'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
-  s.social_media_url = "https://github.com/devdasx"
+  s.social_media_url = "https://github.com/OathWallet"
   s.author       = { 'ROYO STUDIOS' => 'royostudios13@gmail.com' }
   s.source       = { :git => 'https://github.com/OathWallet/bip39-mnemonic-kit.git', :tag => s.version.to_s }
   s.swift_versions = ['6.0']

@@ -8,7 +8,7 @@ Current breaking rename release: `2.0.1`.
 
 ## Package identity
 
-- Repository: `devdasx/bip39-mnemonic-kit`
+- Repository: `OathWallet/bip39-mnemonic-kit`
 - Swift product/module: `BIP39MnemonicKit`
 - CLI binary: `bip39kit`
 - Homebrew formula: `bip39kit`
