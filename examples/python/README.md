@@ -13,7 +13,7 @@ pip install -r requirements.txt
 Equivalent direct install:
 
 ```bash
-pip install "git+https://github.com/devdasx/bip39-mnemonic-kit.git@2.0.1"
+pip install "git+https://github.com/OathWallet/bip39-mnemonic-kit.git@2.0.1"
 ```
 
 When the PyPI package is published:

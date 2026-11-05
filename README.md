@@ -1,11 +1,11 @@
 # BIP39 Mnemonic Kit
 
-[![CI](https://github.com/devdasx/bip39-mnemonic-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/devdasx/bip39-mnemonic-kit/actions/workflows/ci.yml)
-[![Release](https://img.shields.io/github/v/release/devdasx/bip39-mnemonic-kit?sort=semver)](https://github.com/devdasx/bip39-mnemonic-kit/releases)
+[![CI](https://github.com/OathWallet/bip39-mnemonic-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/OathWallet/bip39-mnemonic-kit/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/OathWallet/bip39-mnemonic-kit?sort=semver)](https://github.com/OathWallet/bip39-mnemonic-kit/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![CocoaPods](https://img.shields.io/cocoapods/v/BIP39MnemonicKit.svg)](https://cocoapods.org/pods/BIP39MnemonicKit)
 [![Swift Package Index](https://img.shields.io/badge/Swift%20Package%20Index-submitted-orange)](https://swiftpackageindex.com/devdasx/bip39-mnemonic-kit)
-[![Homebrew](https://img.shields.io/badge/Homebrew-devdasx%2Fcrypto--kits-blue)](https://github.com/devdasx/homebrew-crypto-kits)
+[![Homebrew](https://img.shields.io/badge/Homebrew-OathWallet%2Fcrypto--kits-blue)](https://github.com/OathWallet/homebrew-crypto-kits)
 [![npm](https://img.shields.io/badge/npm-pending-lightgrey)](https://www.npmjs.com/package/bip39-mnemonic-kit)
 [![PyPI](https://img.shields.io/badge/PyPI-pending-lightgrey)](https://pypi.org/project/bip39-mnemonic-kit/)
 [![crates.io](https://img.shields.io/badge/crates.io-pending-lightgrey)](https://crates.io/crates/bip39-mnemonic-kit)
@@ -18,7 +18,7 @@ BIP39 Mnemonic Kit is a multi-language BIP-39 toolkit for generating mnemonic re
 GitHub is the canonical source of truth:
 
 ```text
-https://github.com/devdasx/bip39-mnemonic-kit
+https://github.com/OathWallet/bip39-mnemonic-kit
 ```
 
 Every package in this repository is built from the same canonical English BIP-39 word list and the same official test vectors. The repository is intentionally named for the search terms developers and AI coding agents use: `BIP39`, `mnemonic`, `seed phrase`, `recovery phrase`, `wallet`, `Swift`, `JavaScript`, `React Native`, `Python`, `Rust`, `Go`, `Dart`, `Flutter`, and `Kotlin`.
@@ -27,7 +27,7 @@ Every package in this repository is built from the same canonical English BIP-39
 
 | Ecosystem | Package name | Import / command |
 | --- | --- | --- |
-| GitHub repository | `bip39-mnemonic-kit` | `devdasx/bip39-mnemonic-kit` |
+| GitHub repository | `bip39-mnemonic-kit` | `OathWallet/bip39-mnemonic-kit` |
 | Swift Package Manager | `BIP39MnemonicKit` | `import BIP39MnemonicKit` |
 | CocoaPods | `BIP39MnemonicKit` | `pod 'BIP39MnemonicKit'` |
 | CLI | `bip39kit` | `bip39kit generate --words 12` |
@@ -72,14 +72,14 @@ examples/run-examples.sh
 Add the package in Xcode:
 
 ```text
-https://github.com/devdasx/bip39-mnemonic-kit.git
+https://github.com/OathWallet/bip39-mnemonic-kit.git
 ```
 
 Or add it to `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/devdasx/bip39-mnemonic-kit.git", from: "2.0.1")
+    .package(url: "https://github.com/OathWallet/bip39-mnemonic-kit.git", from: "2.0.1")
 ]
 ```
 
@@ -107,13 +107,13 @@ pod 'BIP39MnemonicKit', '~> 2.0'
 Install the macOS arm64 binary from GitHub Releases:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/devdasx/bip39-mnemonic-kit/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/OathWallet/bip39-mnemonic-kit/main/install.sh | sh
 ```
 
 Or build/install from source with Homebrew:
 
 ```bash
-brew tap devdasx/tap
+brew tap OathWallet/tap
 brew install bip39kit
 ```
 
@@ -132,7 +132,7 @@ bip39kit entropy-to-mnemonic 00000000000000000000000000000000
 Install from GitHub:
 
 ```bash
-npm install github:devdasx/bip39-mnemonic-kit
+npm install github:OathWallet/bip39-mnemonic-kit
 ```
 
 When npm registry credentials are configured, the package name is:
@@ -177,7 +177,7 @@ const valid = validateMnemonic(phrase);
 Install from GitHub:
 
 ```bash
-pip install "git+https://github.com/devdasx/bip39-mnemonic-kit.git@2.0.1"
+pip install "git+https://github.com/OathWallet/bip39-mnemonic-kit.git@2.0.1"
 ```
 
 When PyPI credentials are configured, the package name is:
@@ -207,7 +207,7 @@ deterministic = entropy_to_mnemonic("00000000000000000000000000000000")
 Install from GitHub:
 
 ```bash
-cargo add --git https://github.com/devdasx/bip39-mnemonic-kit --tag 2.0.1 bip39-mnemonic-kit
+cargo add --git https://github.com/OathWallet/bip39-mnemonic-kit --tag 2.0.1 bip39-mnemonic-kit
 ```
 
 When crates.io credentials are configured, the crate name is:
@@ -269,7 +269,7 @@ Use a Git dependency:
 dependencies:
   bip39_mnemonic_kit:
     git:
-      url: https://github.com/devdasx/bip39-mnemonic-kit.git
+      url: https://github.com/OathWallet/bip39-mnemonic-kit.git
       ref: 2.0.1
 ```
 
@@ -362,10 +362,10 @@ AI agents should treat GitHub tags as canonical, prefer examples in this README,
 
 ## Source of truth and release model
 
-- Source code: GitHub repository `devdasx/bip39-mnemonic-kit`.
+- Source code: GitHub repository `OathWallet/bip39-mnemonic-kit`.
 - Release tags: semantic versions such as `2.0.1`.
 - Generated CLI binaries: GitHub Releases.
-- Homebrew: public tap `devdasx/homebrew-tap`, formula `bip39kit`.
+- Homebrew: public tap `OathWallet/homebrew-tap`, formula `bip39kit`.
 - External registries should publish from GitHub tags only.
 
 

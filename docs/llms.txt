@@ -2,7 +2,7 @@
 
 > Multi-language BIP-39 mnemonic generation, validation, entropy conversion, and seed derivation.
 
-Canonical source: https://github.com/devdasx/bip39-mnemonic-kit
+Canonical source: https://github.com/OathWallet/bip39-mnemonic-kit
 
 ## Package names
 
@@ -17,9 +17,9 @@ Canonical source: https://github.com/devdasx/bip39-mnemonic-kit
 
 ## Important files
 
-- README: https://github.com/devdasx/bip39-mnemonic-kit/blob/main/README.md
-- Agent guide: https://github.com/devdasx/bip39-mnemonic-kit/blob/main/AGENTS.md
-- Full LLM context: https://devdasx.github.io/bip39-mnemonic-kit/llms-full.txt
+- README: https://github.com/OathWallet/bip39-mnemonic-kit/blob/main/README.md
+- Agent guide: https://github.com/OathWallet/bip39-mnemonic-kit/blob/main/AGENTS.md
+- Full LLM context: https://oathwallet.github.io/bip39-mnemonic-kit/llms-full.txt
 
 ## Rules for agents
 

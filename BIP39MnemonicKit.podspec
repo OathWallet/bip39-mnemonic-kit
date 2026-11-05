@@ -7,11 +7,11 @@ Pod::Spec.new do |s|
     validating recovery phrases with checksum verification, and deriving BIP-39 seeds
     for wallet and seed phrase workflows.
   DESC
-  s.homepage     = 'https://github.com/devdasx/bip39-mnemonic-kit'
+  s.homepage     = 'https://github.com/OathWallet/bip39-mnemonic-kit'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.social_media_url = "https://github.com/devdasx"
   s.author       = { 'ROYO STUDIOS' => 'royostudios13@gmail.com' }
-  s.source       = { :git => 'https://github.com/devdasx/bip39-mnemonic-kit.git', :tag => s.version.to_s }
+  s.source       = { :git => 'https://github.com/OathWallet/bip39-mnemonic-kit.git', :tag => s.version.to_s }
   s.swift_versions = ['6.0']
   s.platforms    = {
     :ios => '15.0',

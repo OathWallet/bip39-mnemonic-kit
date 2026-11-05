@@ -10,7 +10,7 @@ if [ "${BIP39KIT_BIN:-}" ]; then
 else
   TMPDIR_EXAMPLE="$(mktemp -d "${TMPDIR:-/tmp}/bip39kit-cli-example.XXXXXX")"
   trap 'rm -rf "$TMPDIR_EXAMPLE"' EXIT INT TERM
-  curl -fsSL https://raw.githubusercontent.com/devdasx/bip39-mnemonic-kit/2.0.1/install.sh -o "$TMPDIR_EXAMPLE/install.sh"
+  curl -fsSL https://raw.githubusercontent.com/OathWallet/bip39-mnemonic-kit/2.0.1/install.sh -o "$TMPDIR_EXAMPLE/install.sh"
   sh "$TMPDIR_EXAMPLE/install.sh" --version 2.0.1 --prefix "$TMPDIR_EXAMPLE/prefix" >/dev/null
   BIN="$TMPDIR_EXAMPLE/prefix/bin/bip39kit"
 fi

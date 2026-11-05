@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://devdasx.github.io/bip39-mnemonic-kit/sitemap.xml
+Sitemap: https://oathwallet.github.io/bip39-mnemonic-kit/sitemap.xml

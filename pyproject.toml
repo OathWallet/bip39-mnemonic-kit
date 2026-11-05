@@ -19,8 +19,8 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/devdasx/bip39-mnemonic-kit"
-Repository = "https://github.com/devdasx/bip39-mnemonic-kit"
+Homepage = "https://github.com/OathWallet/bip39-mnemonic-kit"
+Repository = "https://github.com/OathWallet/bip39-mnemonic-kit"
 
 [tool.setuptools]
 package-dir = { "" = "python" }

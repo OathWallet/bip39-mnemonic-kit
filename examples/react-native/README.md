@@ -11,7 +11,7 @@ The React Native build requires you to inject a secure random byte provider beca
 ## Install
 
 ```bash
-npm install github:devdasx/bip39-mnemonic-kit#2.0.1
+npm install github:OathWallet/bip39-mnemonic-kit#2.0.1
 ```
 
 When the npm registry package is published:

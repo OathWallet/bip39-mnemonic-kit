@@ -1,9 +1,9 @@
 name: bip39_mnemonic_kit
 version: 2.0.1
 description: BIP-39 mnemonic generation, validation, entropy conversion, and seed derivation for Dart and Flutter.
-homepage: https://github.com/devdasx/bip39-mnemonic-kit
-repository: https://github.com/devdasx/bip39-mnemonic-kit
-issue_tracker: https://github.com/devdasx/bip39-mnemonic-kit/issues
+homepage: https://github.com/OathWallet/bip39-mnemonic-kit
+repository: https://github.com/OathWallet/bip39-mnemonic-kit
+issue_tracker: https://github.com/OathWallet/bip39-mnemonic-kit/issues
 
 environment:
   sdk: ">=3.3.0 <4.0.0"

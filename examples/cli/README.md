@@ -5,13 +5,13 @@ This example installs the `bip39kit` command from GitHub Releases and runs commo
 ## Install
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/devdasx/bip39-mnemonic-kit/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/OathWallet/bip39-mnemonic-kit/main/install.sh | sh
 ```
 
 Or install from Homebrew:
 
 ```bash
-brew tap devdasx/tap
+brew tap OathWallet/tap
 brew install bip39kit
 ```
 

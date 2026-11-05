@@ -10,7 +10,7 @@ Add a Git dependency:
 dependencies:
   bip39_mnemonic_kit:
     git:
-      url: https://github.com/devdasx/bip39-mnemonic-kit.git
+      url: https://github.com/OathWallet/bip39-mnemonic-kit.git
       ref: 2.0.1
 ```
 

@@ -6,7 +6,7 @@
     "smoke": "node smoke-test.mjs"
   },
   "dependencies": {
-    "bip39-mnemonic-kit": "github:devdasx/bip39-mnemonic-kit#2.0.1"
+    "bip39-mnemonic-kit": "github:OathWallet/bip39-mnemonic-kit#2.0.1"
   },
   "devDependencies": {
     "@types/react": "^19.0.0"

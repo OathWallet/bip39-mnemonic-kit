@@ -4,7 +4,7 @@ version = "2.0.1"
 edition = "2021"
 description = "BIP-39 mnemonic generation, validation, entropy conversion, and seed derivation."
 license = "MIT"
-repository = "https://github.com/devdasx/bip39-mnemonic-kit"
+repository = "https://github.com/OathWallet/bip39-mnemonic-kit"
 
 [lib]
 path = "rust/src/lib.rs"

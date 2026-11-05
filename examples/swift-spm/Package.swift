@@ -5,7 +5,7 @@ let package = Package(
     name: "BIP39MnemonicKitSwiftExample",
     platforms: [.macOS(.v13)],
     dependencies: [
-        .package(url: "https://github.com/devdasx/bip39-mnemonic-kit.git", exact: "2.0.1")
+        .package(url: "https://github.com/OathWallet/bip39-mnemonic-kit.git", exact: "2.0.1")
     ],
     targets: [
         .executableTarget(

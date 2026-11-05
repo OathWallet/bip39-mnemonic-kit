@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-REPO_URL="${REPO_URL:-https://github.com/devdasx/bip39-mnemonic-kit.git}"
+REPO_URL="${REPO_URL:-https://github.com/OathWallet/bip39-mnemonic-kit.git}"
 GITHUB_SLUG="${GITHUB_SLUG:-devdasx/bip39-mnemonic-kit}"
 REF="${REF:-2.0.1}"
 WORKDIR=""
@@ -23,11 +23,11 @@ Rust, Go, Dart/Flutter-compatible package, Kotlin/JVM, and optionally Homebrew.
 
 Options:
   --ref VERSION_OR_BRANCH   Git ref/tag to install from. Default: 2.0.1
-  --repo URL                Git repo URL. Default: https://github.com/devdasx/bip39-mnemonic-kit.git
+  --repo URL                Git repo URL. Default: https://github.com/OathWallet/bip39-mnemonic-kit.git
   --github-slug OWNER/REPO  GitHub slug used by npm/JitPack. Default: devdasx/bip39-mnemonic-kit
   --workdir DIR             Reuse/create a specific scratch directory.
   --install-missing         Install missing go/rust/dart/gradle with Homebrew when possible.
-  --include-homebrew        Also test brew install devdasx/tap/bip39kit.
+  --include-homebrew        Also test brew install OathWallet/tap/bip39kit.
   --keep-workdir            Do not delete the scratch directory.
   -h, --help                Show this help.
 

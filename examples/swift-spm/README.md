@@ -8,7 +8,7 @@ Add the package to `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/devdasx/bip39-mnemonic-kit.git", exact: "2.0.1")
+    .package(url: "https://github.com/OathWallet/bip39-mnemonic-kit.git", exact: "2.0.1")
 ]
 ```
 

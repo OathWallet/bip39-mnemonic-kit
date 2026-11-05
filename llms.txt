@@ -2,7 +2,7 @@
 
 > Multi-language BIP-39 mnemonic generation, validation, entropy conversion, and seed derivation.
 
-Canonical source: https://github.com/devdasx/bip39-mnemonic-kit
+Canonical source: https://github.com/OathWallet/bip39-mnemonic-kit
 
 ## Package names
 
@@ -26,15 +26,15 @@ All implementations expose these concepts:
 
 ## Important files
 
-- [README](https://github.com/devdasx/bip39-mnemonic-kit/blob/main/README.md): install and usage for every language.
-- [AGENTS](https://github.com/devdasx/bip39-mnemonic-kit/blob/main/AGENTS.md): repository structure and test commands for coding agents.
-- [Swift source](https://github.com/devdasx/bip39-mnemonic-kit/tree/main/Sources/BIP39MnemonicKit): Swift implementation.
-- [JavaScript source](https://github.com/devdasx/bip39-mnemonic-kit/tree/main/javascript): JavaScript and React Native implementation.
-- [Python source](https://github.com/devdasx/bip39-mnemonic-kit/tree/main/python/bip39_mnemonic_kit): Python implementation.
-- [Rust source](https://github.com/devdasx/bip39-mnemonic-kit/tree/main/rust/src): Rust implementation.
-- [Go source](https://github.com/devdasx/bip39-mnemonic-kit/tree/main/go/bip39): Go implementation.
-- [Dart source](https://github.com/devdasx/bip39-mnemonic-kit/tree/main/lib): Dart and Flutter implementation.
-- [Kotlin source](https://github.com/devdasx/bip39-mnemonic-kit/tree/main/kotlin/src/main/kotlin/com/devdasx/bip39mnemonickit): Kotlin implementation.
+- [README](https://github.com/OathWallet/bip39-mnemonic-kit/blob/main/README.md): install and usage for every language.
+- [AGENTS](https://github.com/OathWallet/bip39-mnemonic-kit/blob/main/AGENTS.md): repository structure and test commands for coding agents.
+- [Swift source](https://github.com/OathWallet/bip39-mnemonic-kit/tree/main/Sources/BIP39MnemonicKit): Swift implementation.
+- [JavaScript source](https://github.com/OathWallet/bip39-mnemonic-kit/tree/main/javascript): JavaScript and React Native implementation.
+- [Python source](https://github.com/OathWallet/bip39-mnemonic-kit/tree/main/python/bip39_mnemonic_kit): Python implementation.
+- [Rust source](https://github.com/OathWallet/bip39-mnemonic-kit/tree/main/rust/src): Rust implementation.
+- [Go source](https://github.com/OathWallet/bip39-mnemonic-kit/tree/main/go/bip39): Go implementation.
+- [Dart source](https://github.com/OathWallet/bip39-mnemonic-kit/tree/main/lib): Dart and Flutter implementation.
+- [Kotlin source](https://github.com/OathWallet/bip39-mnemonic-kit/tree/main/kotlin/src/main/kotlin/com/devdasx/bip39mnemonickit): Kotlin implementation.
 
 ## Rules for agents
 

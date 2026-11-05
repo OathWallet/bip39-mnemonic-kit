@@ -2,7 +2,7 @@
 
 BIP39 Mnemonic Kit is a monorepo containing BIP-39 implementations for Swift, CLI, JavaScript, React Native, Python, Rust, Go, Dart/Flutter, and Kotlin/JVM.
 
-Canonical repository: https://github.com/devdasx/bip39-mnemonic-kit
+Canonical repository: https://github.com/OathWallet/bip39-mnemonic-kit
 
 Current breaking rename release: `2.0.1`.
 

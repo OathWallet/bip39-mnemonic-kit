@@ -4,7 +4,7 @@ This repository is a multi-language BIP-39 implementation. GitHub is the source 
 
 ## Names
 
-- Repo: `devdasx/bip39-mnemonic-kit`
+- Repo: `OathWallet/bip39-mnemonic-kit`
 - Swift: `BIP39MnemonicKit`
 - CLI/Homebrew: `bip39kit`
 - npm: `bip39-mnemonic-kit`

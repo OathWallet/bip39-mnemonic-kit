@@ -5,7 +5,7 @@ This example installs `bip39-mnemonic-kit` from GitHub and uses the ESM JavaScri
 ## Install
 
 ```bash
-npm install github:devdasx/bip39-mnemonic-kit#2.0.1
+npm install github:OathWallet/bip39-mnemonic-kit#2.0.1
 ```
 
 When the npm registry package is published, the registry install command is:
